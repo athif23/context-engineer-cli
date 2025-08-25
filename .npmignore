@@ -1,0 +1,47 @@
+# Source files (we include compiled versions)
+*.ts
+!*.d.ts
+tsconfig.json
+
+# Development files
+.git/
+.gitignore
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+bun.lockb
+
+# Build artifacts not needed for package
+coverage/
+.nyc_output/
+
+# Environment variables
+.env*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Output and temporary files
+context-output.txt
+*.context.txt
+tmp/
+temp/
+
+# Development documentation
+USAGE_EXAMPLES.md
